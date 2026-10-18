@@ -47,24 +47,22 @@ The current notebook uses reconstruction-based learning rather than a fully supe
 
 ## Dataset
 
-The notebook uses MRI images stored in DICOM format.
+# Dataset Attribution
 
-The dataset is **not included in this repository**. You must obtain access to the dataset separately and configure the notebook to point to your local dataset directory.
+This project uses the **JUH_MR-CT dataset**, obtained from Mendeley Data.
 
-For example, the expected directory structure can be:
+- **Dataset source:** https://data.mendeley.com/datasets/z4wc364g79/1
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+- **License URL:** https://creativecommons.org/licenses/by/4.0/
 
-```text
-data/
-└── MR/
-    └── image_MR/
-        ├── image_001.dcm
-        ├── image_002.dcm
-        └── ...
-```
+The dataset may be shared and adapted under the terms of CC BY 4.0, subject to the applicable license conditions.
 
-The filenames above are illustrative. Your dataset may use a different naming convention.
+Please refer to the original dataset publication for the authors, recommended citation, and any additional attribution requirements.
 
-Configure the dataset path in the notebook to match your local setup. Do not commit medical images or identifiable patient information to a public repository.
+Any modifications to the original dataset should be clearly identified.
+
+The dataset is provided for research and educational use. Users should review the original dataset documentation and ensure that their use complies with applicable privacy requirements and any third-party rights.
+
 
 ## Installation
 

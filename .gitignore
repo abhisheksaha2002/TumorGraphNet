@@ -1,7 +1,4 @@
 
-# MRI dataset — keep local, do not upload
-data/
-*.dcm
 
 # Trained model weights
 *.pt
