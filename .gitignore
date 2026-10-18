@@ -1,0 +1,23 @@
+
+# MRI dataset — keep local, do not upload
+data/
+*.dcm
+
+# Trained model weights
+*.pt
+*.pth
+
+# Generated outputs
+outputs/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment variables and secrets
+.env
